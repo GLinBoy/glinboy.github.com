@@ -1,6 +1,6 @@
 # Site settings
-title: Dong Liang's CV
-description: ddbullfrog's CV
+title: Hojjat Abedi's CV
+description: Hojjat Abedi's CV
 favicon: /assets/img/avatar.JPG
 baseurl: https://glinboy.github.io
 url: https://glinboy.github.io
@@ -14,40 +14,39 @@ exclude: [vendor]
 
 # Author settings
 author:
-  name: Dong Liang
+  name: Hojjat Abedi
   title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang#gmail.com
-  link: http://ddbullfrog.com
+  address: Tehran, Iran
+  email: hojjatabedie#gmail.com
+  link: http://glinboy.com
   weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
+  github: glinboy
+  linkedin: hojjatabedie
+  twitter: glinboy
   gavatar: /resumecard/assets/img/avatar.JPG
-  stackoverflow:
-#  stackoverflow: 4582127
+  stackoverflow: 2670847
   workHistory:
     - work1:
-      company: XXX Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Rayan Ham-Afza
+      location: Tehran, Iran
+      title: Java Developer (Back-end)
+      started: 2017
+      duration: (Apr 2017 - Nov 2018)
+      description: Rayan Ham-Afza main field of activity is developing software for stock brokers, investment funds and banks and software services accordingly.
     - work2:
-      company: XXX Ltd
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Technology Hafiz System
+      location: Tehran, Iran
+      title: Oracle ADF Developer
+      started: 2013
+      duration: (Dec 2013 - Apr 2017)
+      description: Hafiz Samean Technology Co. was founded in 2000 and has been working on budgeting and budgeting in the areas of designing of organizational systems and processes, auditing, as well as analyzing and designing and deploying MIS software in government, business and contracting industries.
     - work3:
-      company: XXX Ltd
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Freelancer
+      location: Tehran, Iran
+      title: Web Designer
+      started: 2005
+      duration: (2005 - Dec 2013)
+      description: I designed web site with Jomla, Wordpress and Drupal for commerical and personal use. I used HTML, CSS and Javascript for run websites.
   educationHistory:
     - education1:
       organization: XXXXXX University
@@ -59,27 +58,21 @@ author:
       description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
   languages:
     - language1:
-      name: Chinese
+      name: Persian (Farsi)
       proficiency: Native
     - language2:
       name: English
-      proficiency: Professional
-    - language3:
-      name: Japanese
-      proficiency: Limit
+      proficiency: Upper Intermediate
   programmingSkills:
     - skill1:
-      name: HTML
-      percentage: 100%
+      name: Java
+      percentage: 80%
     - skill2:
-      name: Bootstrap
-      percentage: 90%
-    - skill3:
-      name: JavaScript
-      percentage: 70%
-    - skill4:
-      name: AngularJS
-      percentage: 70%
-    - skill5:
       name: Java/Java EE
+      percentage: 60%
+    - skill3:
+      name: HTML/CSS/JS
       percentage: 90%
+    - skill4:
+      name: VueJS
+      percentage: 60%
