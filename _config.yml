@@ -49,13 +49,13 @@ author:
       description: I designed web site with Jomla, Wordpress and Drupal for commerical and personal use. I used HTML, CSS and Javascript for run websites.
   educationHistory:
     - education1:
-      organization: XXXXXX University
-      location: Shenyang, China
+      organization: Payame Noor University
+      location: Tehran, Iran
       degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      major: Computer Software Engineering
+      started: 2008
+      duration: (Sep 2008 - Drop-out)
+      description: Payame Noor University is a public university system and one of the largest universities in Iran.
   languages:
     - language1:
       name: Persian (Farsi)
