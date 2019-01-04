@@ -65,14 +65,17 @@ author:
       proficiency: Upper Intermediate
   programmingSkills:
     - skill1:
-      name: Java
-      percentage: 80%
-    - skill2:
       name: Java/Java EE
-      percentage: 60%
-    - skill3:
+      percentage: 70%
+    - skill2:
       name: HTML/CSS/JS
       percentage: 90%
-    - skill4:
+    - skill3:
       name: VueJS
-      percentage: 60%
+      percentage: 50%
+    - skill4:
+      name: C++
+      percentage: 40%
+    - skill5:
+      name: Python
+      percentage: 40%
