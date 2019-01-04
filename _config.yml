@@ -2,8 +2,6 @@
 title: Hojjat Abedi's CV
 description: Hojjat Abedi's CV
 favicon: /assets/img/avatar.JPG
-baseurl: https://glinboy.com
-url: https://glinboy.com
 rss_url: /pages/atom.xml
 google_analytics: UA-63653234-1
 
@@ -79,3 +77,19 @@ author:
     - skill5:
       name: Python
       percentage: 40%
+  programmingTools:
+    - tools1:
+      name: Framework
+      data: Oracle ADF, Spring & Spring Boot, Hibernate, JUnit, VueJS
+    - tools2:
+      name: Technology​
+      data: JPA, SOAP, RESTful, AJAX, MicroService
+    - tools3:
+      name: Development Tool​
+      data: Linux, Spring Tool Suite, Eclipse IDE, Intellij, Netbeans, Maven, Git, SVN
+    - tools4:
+      name: Application Server​
+      data: Weblogic10.3, Wildfly, Jetty, Tomcat
+    - tools5:
+      name: Database​
+      data: Oracle 11g, MySQL

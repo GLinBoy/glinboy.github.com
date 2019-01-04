@@ -94,7 +94,7 @@ layout: default
             {% if site.author.stackoverflow or site.author.programmingSkills %}
                 <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
                 {% if site.author.stackoverflow %}
-                <div class="grid-block">
+                <div class="grid-block" style="text-align: center">
                   <p><a href="//stackoverflow.com/users/{{ site.author.stackoverflow }}"><img src="//stackoverflow.com/users/flair/{{ site.author.stackoverflow }}.png"></a></p>
                   <ul class="list-unstyled list-stackoverflow" id="stackoverflow_questions_and_answers"></ul>
                   <script type="text/javascript">
@@ -229,6 +229,21 @@ layout: default
                                             <span>{{ programmingSkill.percentage }} </span>
                                         </div>
                                     </div>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+                {% if site.author.programmingTools %}
+                <div class="grid-block">
+                    <ul class="list-unstyled fa-ul">
+                        {% for programmingTools in site.author.programmingTools %}
+                            <li><i class="fa-li fa fa-hashtag"></i>
+                                {% if programmingTools.name %}
+                                  <div><p>
+                                    <b>{{ programmingTools.name }}:</b> {{ programmingTools.data }}
+                                  </p></div>
                                 {% endif %}
                             </li>
                         {% endfor %}
