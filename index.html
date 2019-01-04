@@ -5,7 +5,7 @@ layout: default
     <div class="row-fluid">
         <div class="col-md-8">
             {% if site.author.workHistory %}
-                <h3 class="title with-icon"><span class="glyphicon glyphicon-plane cat-title"></span>Work History</h3>
+                <h3 class="title with-icon"><span class="fa fa-briefcase cat-title"></span>Work History</h3>
                 <ul class="timeline">
                     {% for work in site.author.workHistory %}
                         <li class="timeline-inverted">
@@ -46,7 +46,7 @@ layout: default
                 </ul>
             {% endif %}
             {% if site.author.educationHistory %}
-                <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education History</h3>
+                <h3 class="title with-icon"><span class="fa fa-graduation-cap cat-title"></span>Education History</h3>
                 <ul class="timeline">
                     {% for education in site.author.educationHistory %}
                         <li class="timeline-inverted">
@@ -83,6 +83,55 @@ layout: default
                                     {% if education.description %}
                                         <p>{{ education.description }}</p>
                                     {% endif %}
+                                </div>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            {% if site.author.personalProjects %}
+                <h3 class="title with-icon"><span class="fa fa-rocket cat-title"></span>Personal Projects</h3>
+                <ul class="timeline">
+                    {% for project in site.author.personalProjects %}
+                        <li class="timeline-inverted">
+                            {% if project.started %}
+                                <div class="timeline-badge info">{{ project.started }}</div>
+                            {% endif %}
+                            <div class="timeline-panel grid-block">
+                                <div class="timeline-heading">
+                                    {% if project.name %}
+                                        <h4 class="timeline-title">{{ project.name }}</h4>
+                                    {% endif %}
+                                    <p>
+                                        <small class="text-muted">
+                                            {% if project.license %}
+                                                <strong>License:</strong> {{ project.license }}
+                                            {% endif %}
+                                            {% if project.platforms %}
+                                                , <strong>Platforms:</strong> {{ project.platforms }}
+                                            {% endif %}
+                                        </small>
+                                    </p>
+                                </div>
+                                <div class="timeline-body">
+                                    {% if project.description %}
+                                        <p>{{ project.description }}</p>
+                                    {% endif %}
+                                </div>
+                                <div class="timeline-heading">
+                                  <p>
+                                      <small class="text-muted">
+                                          {% if project.website %}
+                                              <a href="{{ project.website }}" target="_blank"><i class="fa fa-home"></i> {{ project.website }} <i class="fa fa-external-link"></i></a>
+                                          {% endif %}
+                                          {% if project.github %}
+                                              <br><a href="{{ project.github }}" target="_blank"><i class="fa fa-github"></i>  {{ project.github }} <i class="fa fa-external-link"></i></a>
+                                          {% endif %}
+                                          {% if project.technologies %}
+                                              <br><strong>Technologies:</strong> {{ project.technologies }}
+                                          {% endif %}
+                                      </small>
+                                  </p>
                                 </div>
                             </div>
                         </li>

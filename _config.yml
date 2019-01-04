@@ -1,6 +1,8 @@
 # Site settings
 title: Hojjat Abedi's CV
 description: Hojjat Abedi's CV
+baseurl: https://glinboy.com
+url: https://glinboy.com
 favicon: /assets/img/avatar.JPG
 rss_url: /pages/atom.xml
 google_analytics: UA-63653234-1
@@ -13,6 +15,10 @@ exclude: [vendor]
 # Author settings
 author:
   name: Hojjat Abedi
+  gender: Male
+  # gender: Female
+  brithday: July 1986
+  maritalStatus: Married
   title: Java Developer
   address: Tehran, Iran
   email: hojjatabedie#gmail.com
@@ -54,6 +60,25 @@ author:
       started: 2008
       duration: (Sep 2008 - Drop-out)
       description: Payame Noor University is a public university system and one of the largest universities in Iran.
+  personalProjects:
+    - project1:
+      name: J-Cart
+      description: Yet Another Cart Application On Cutting-Edge of Java Technologies With Sprin Boot
+      platforms: Web, Mobile
+      started: 2018
+      license: Open Source
+      website: https://github.com/GLinBoy/jcart-backend
+      github: https://github.com/GLinBoy/jcart-backend
+      technologies: Spring-Boot, JPA, gradle, RESTful
+    - project2:
+      name: Feader
+      description: Yet Another Feed Reader Inspired by <a href="https://feedly.com">https://feedly.com <small><i class="fa fa-external-link"></i></small></a>
+      platforms: Web, Mobile, Desktop
+      started: 2018
+      license: Open Source
+      website: https://github.com/GLinBoy/feader
+      github: https://github.com/GLinBoy/feader
+      technologies: Spring-Boot, Spring Batch, JPA, Maven, RESTful, thymleaf
   languages:
     - language1:
       name: Persian (Farsi)
@@ -79,17 +104,17 @@ author:
       percentage: 40%
   programmingTools:
     - tools1:
-      name: Framework
+      name: Frameworks
       data: Oracle ADF, Spring & Spring Boot, Hibernate, JUnit, VueJS
     - tools2:
-      name: Technology​
+      name: Technologies
       data: JPA, SOAP, RESTful, AJAX, MicroService
     - tools3:
-      name: Development Tool​
+      name: Development Tool​s
       data: Linux, Spring Tool Suite, Eclipse IDE, Intellij, Netbeans, Maven, Git, SVN
     - tools4:
-      name: Application Server​
+      name: Application Server​s
       data: Weblogic10.3, Wildfly, Jetty, Tomcat
     - tools5:
-      name: Database​
+      name: Database​s
       data: Oracle 11g, MySQL

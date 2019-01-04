@@ -175,6 +175,7 @@ hr {
     position: relative;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    width: 100%;
 }
 
 .timeline > li > .timeline-panel:before {
@@ -424,7 +425,7 @@ hr {
 }
 
 .ribbon{
-  position: absolute; 
+  position: absolute;
   top: 42px;
   width: 200px;
   padding: 1px 0;
@@ -454,16 +455,16 @@ hr {
   transform: rotate(45deg);
 }
 
-.ribbon a, 
-.ribbon a:visited, 
-.ribbon a:active, 
+.ribbon a,
+.ribbon a:visited,
+.ribbon a:active,
 .ribbon a:hover{
   display: block;
   padding: 1px 0;
   height: 24px;
   line-height: 24px;
 
-  color: inherit;  
+  color: inherit;
   text-align: center;
   text-decoration: none;
   font-family: 'Cabin Condensed', sans-serif;
