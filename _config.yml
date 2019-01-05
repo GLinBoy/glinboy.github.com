@@ -5,7 +5,7 @@ baseurl: https://glinboy.com
 url: https://glinboy.com
 favicon: /assets/img/avatar.JPG
 rss_url: /pages/atom.xml
-google_analytics: UA-63653234-1
+google_analytics: UA-15495320-5
 
 # Build settings
 markdown: kramdown
