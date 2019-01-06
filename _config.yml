@@ -110,7 +110,7 @@ author:
       data: JPA, SOAP, RESTful, AJAX, MicroService
     - tools3:
       name: Development Tool​s
-      data: Linux, Spring Tool Suite, Eclipse IDE, Intellij, Netbeans, Maven, Git, SVN
+      data: Linux, Docker, Spring Tool Suite, Eclipse IDE, Intellij, Maven, Git, SVN
     - tools4:
       name: Application Server​s
       data: Weblogic10.3, Wildfly, Jetty, Tomcat
